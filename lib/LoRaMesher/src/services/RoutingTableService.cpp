@@ -67,6 +67,30 @@ uint8_t RoutingTableService::getNumberOfHops(uint16_t address) {
     return node->networkNode.metric;
 }
 
+void RoutingTableService::processRoute(RoutePacket* p, int8_t receivedSNR, bool& routingTableUpdated) {
+    if ((p->packetSize - sizeof(RoutePacket)) % sizeof(NetworkNode) != 0) {
+        ESP_LOGE(LM_TAG, "Invalid route packet size");
+        return;
+    }
+
+    size_t numNodes = p->getNetworkNodesSize();
+    ESP_LOGI(LM_TAG, "Route packet from %X with size %d", p->src, numNodes);
+    NetworkNode* receivedNode = new NetworkNode(p->src, 1, p->nodeRole);
+    processRoute(p->src, receivedNode, routingTableUpdated);
+    
+    delete receivedNode;
+
+    resetReceiveSNRRoutePacket(p->src, receivedSNR);
+
+    for (size_t i = 0; i < numNodes; i++) {
+        NetworkNode* node = &p->networkNodes[i];
+        node->metric++;
+        processRoute(p->src, node, routingTableUpdated);
+    }
+
+    printRoutingTable();
+}
+
 void RoutingTableService::processRoute(RoutePacket* p, int8_t receivedSNR) {
     if ((p->packetSize - sizeof(RoutePacket)) % sizeof(NetworkNode) != 0) {
         ESP_LOGE(LM_TAG, "Invalid route packet size");
@@ -75,7 +99,6 @@ void RoutingTableService::processRoute(RoutePacket* p, int8_t receivedSNR) {
 
     size_t numNodes = p->getNetworkNodesSize();
     ESP_LOGI(LM_TAG, "Route packet from %X with size %d", p->src, numNodes);
-
     NetworkNode* receivedNode = new NetworkNode(p->src, 1, p->nodeRole);
     processRoute(p->src, receivedNode);
     delete receivedNode;
@@ -99,6 +122,38 @@ void RoutingTableService::resetReceiveSNRRoutePacket(uint16_t src, int8_t receiv
     ESP_LOGI(LM_TAG, "Reset Receive SNR from %X: %d", src, receivedSNR);
 
     rNode->receivedSNR = receivedSNR;
+}
+
+void RoutingTableService::processRoute(uint16_t via, NetworkNode* node, bool& routingTableUpdated) {
+    if (node->address != WiFiService::getLocalAddress()) {
+
+        RouteNode* rNode = findNode(node->address);
+        //If nullptr the node is not inside the routing table, then add it
+        if (rNode == nullptr) {
+            addNodeToRoutingTable(node, via);
+            routingTableUpdated = true;
+            return;
+        }
+
+        //Update the metric and restart timeout if needed
+        if (node->metric < rNode->networkNode.metric) {
+            rNode->networkNode.metric = node->metric;
+            rNode->via = via;
+            resetTimeoutRoutingNode(rNode);
+            ESP_LOGI(LM_TAG, "Found better route for %X via %X metric %d", node->address, via, node->metric);
+            routingTableUpdated = true;
+        }
+        else if (node->metric == rNode->networkNode.metric) {
+            //Reset the timeout, only when the metric is the same as the actual route.
+            resetTimeoutRoutingNode(rNode);
+        }
+
+        // Update the Role only if the node that sent the packet is the next hop
+        if (getNextHop(node->address) == via && node->role != rNode->networkNode.role) {
+            ESP_LOGI(LM_TAG, "Updating role of %X to %d", node->address, node->role);
+            rNode->networkNode.role = node->role;
+        }
+    }
 }
 
 void RoutingTableService::processRoute(uint16_t via, NetworkNode* node) {

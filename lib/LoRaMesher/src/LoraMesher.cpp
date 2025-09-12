@@ -595,6 +595,10 @@ void LoraMesher::sendHelloPacket() {
     vTaskDelay(2000 / portTICK_PERIOD_MS);
 
     for (;;) {
+        #ifdef REBROADCAST_HELLO_ON_ROUTE_CHANGE
+            // Wait for either a notification or HELLO_PACKETS_DELAY seconds to send the next hello packet
+            ulTaskNotifyTake(pdTRUE, HELLO_PACKETS_DELAY * 1000 / portTICK_PERIOD_MS);
+        #endif
         ESP_LOGV(LM_TAG, "Creating Routing Packet");
         ESP_LOGV(LM_TAG, "Stack space unused after entering the task: %d", uxTaskGetStackHighWaterMark(NULL));
         ESP_LOGV(LM_TAG, "Free heap: %d", getFreeHeap());
@@ -628,8 +632,10 @@ void LoraMesher::sendHelloPacket() {
         if (numOfNodes > 0)
             delete[] nodes;
 
-        // Wait for HELLO_PACKETS_DELAY seconds to send the next hello packet
-        vTaskDelay(HELLO_PACKETS_DELAY * 1000 / portTICK_PERIOD_MS);
+        #ifndef REBROADCAST_HELLO_ON_ROUTE_CHANGE
+            // Wait for HELLO_PACKETS_DELAY seconds to send the next hello packet
+            vTaskDelay(HELLO_PACKETS_DELAY * 1000 / portTICK_PERIOD_MS);
+        #endif
     }
 }
 
@@ -670,8 +676,18 @@ void LoraMesher::processPackets() {
 
                 if (PacketService::isHelloPacket(type)) {
                     incRecHelloPackets();
-
-                    RoutingTableService::processRoute(reinterpret_cast<RoutePacket*>(rx->packet), rx->snr);
+                    
+                    #ifdef REBROADCAST_HELLO_ON_ROUTE_CHANGE
+                        bool routingTableUpdated = false;
+                        RoutingTableService::processRoute(reinterpret_cast<RoutePacket*>(rx->packet), rx->snr, &routingTableUpdated);
+                        if (routingTableUpdated) {
+                            // Notify the Hello task to send a new hello packet
+                            xTaskNotifyGive(Hello_TaskHandle);
+                        }
+                    #else
+                        RoutingTableService::processRoute(reinterpret_cast<RoutePacket*>(rx->packet), rx->snr);
+                    #endif
+                        
                     PacketQueueService::deleteQueuePacketAndPacket(rx);
                 }
                 else if (PacketService::isDataPacket(type))

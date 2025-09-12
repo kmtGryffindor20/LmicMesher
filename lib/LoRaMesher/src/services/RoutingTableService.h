@@ -104,6 +104,15 @@ public:
 	static void processRoute(RoutePacket* p, int8_t receivedSNR);
 
 	/**
+	 * @brief Process the network packet
+	 *
+	 * @param p Route Packet
+	 * @param receivedSNR Received SNR
+	 * @param routingTableUpdated Set to true if the routing table has been updated
+	 */
+	static void processRoute(RoutePacket* p, int8_t receivedSNR, bool& routingTableUpdated);
+
+	/**
 	 * @brief Reset the SNR from the Route Node received
 	 *
 	 * @param src Source address
@@ -143,6 +152,15 @@ private:
 	 * @param node NetworkNode
 	 */
 	static void processRoute(RouteNode* rNode, uint16_t via, NetworkNode* node);
+
+	/**
+	 * @brief process the network node, adds the node in the routing table if can
+	 *
+	 * @param via via address
+	 * @param node NetworkNode
+	 * @param routingTableUpdated to be set to true if the routing table has been updated
+	 */
+	static void processRoute(uint16_t via, NetworkNode* node, bool& routingTableUpdated);
 
 	/**
 	 * @brief Reset the timeout of the given node
