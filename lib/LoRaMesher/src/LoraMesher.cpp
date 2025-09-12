@@ -971,22 +971,32 @@ void LoraMesher::recordState(LM_StateType type, Packet<uint8_t>* packet) {
 }
 
 #ifdef LM_TESTING
-const int NUM_NODES = 5;
+const int NUM_NODES = 6;
 
 const uint16_t label_addresses[NUM_NODES] = {
-    0xae14,
+    0xd110,
     0xf02c,
-    0xb3f0,
     0xafc0,
-    0xc998,
+    0xde6c,
+    0xb3f0,
+    0xc998
 };
 
+// const bool adjacency_matrix[NUM_NODES][NUM_NODES] = {
+//     {0,1,0,0,0},
+//     {1,0,1,0,0},
+//     {0,1,0,1,0},
+//     {0,0,1,0,1},
+//     {0,0,0,1,0},
+// };
+
 const bool adjacency_matrix[NUM_NODES][NUM_NODES] = {
-    {0,1,0,0,0},
-    {1,0,1,0,0},
-    {0,1,0,1,0},
-    {0,0,1,0,1},
-    {0,0,0,1,0},
+    {0,1,0,0,0,1},
+    {1,0,1,0,0,0},
+    {0,1,0,1,0,0},
+    {0,0,1,0,1,0},
+    {0,0,0,1,0,1},
+    {1,0,0,0,1,0},
 };
 
 bool LoraMesher::canReceivePacket(uint16_t source) {

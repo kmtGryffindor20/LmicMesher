@@ -140,6 +140,7 @@ void setupLoraMesher() {
     config.loraIrq = IRQ;
     config.loraIo1 = IO1;
 
+    config.syncWord = 0x45;
     #ifdef HELTEC
         SPI.begin(9, 11, 10, CS); //Initialize SPI with the correct pins
         config.spi = &SPI;
@@ -194,7 +195,7 @@ void loop() {
                 }
             #endif
 
-            #ifndef IS_GATEWAY
+            #ifdef IS_SENSOR_NODE
                 Serial.printf("Send packet %d\n", dataCounter);
 
                 helloPacket->data.counter = dataCounter++;

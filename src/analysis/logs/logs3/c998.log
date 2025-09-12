@@ -1,0 +1,1494 @@
+15:40:16.207 > [ 25009][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2400
+15:40:16.218 > [ 25019][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336532
+15:40:16.225 > [ 25026][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:40:16.234 > [ 25035][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -67 SNR: 12
+15:40:16.245 > [ 25046][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:40:16.254 > [ 25055][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 32 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:40:16.268 > [ 25069][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:40:16.278 > [ 25079][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:40:16.286 > [ 25087][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:40:16.295 > [ 25096][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:40:16.304 > [ 25105][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2296
+15:40:16.314 > [ 25115][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336532
+15:40:36.348 > [ 45151][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2336
+15:40:36.359 > [ 45162][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336532
+15:40:36.367 > [ 45169][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:40:36.376 > [ 45178][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -68 SNR: 13
+15:40:36.386 > [ 45189][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:40:36.395 > [ 45198][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 33 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:40:36.409 > [ 45211][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:40:36.419 > [ 45222][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:40:36.428 > [ 45230][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:40:36.436 > [ 45239][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:40:36.445 > [ 45248][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2148
+15:40:36.455 > [ 45258][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336532
+15:40:55.623 > [ 64427][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2176
+15:40:55.634 > [ 64437][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336532
+15:40:55.641 > [ 64445][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:40:55.650 > [ 64454][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 12
+15:40:55.661 > [ 64465][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:40:55.670 > [ 64474][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 34 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:40:55.684 > [ 64487][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:40:55.694 > [ 64498][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:40:55.702 > [ 64506][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:40:55.711 > [ 64515][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:40:55.720 > [ 64524][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2148
+15:40:55.730 > [ 64534][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336532
+15:41:14.619 > [ 83424][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2176
+15:41:14.630 > [ 83434][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336532
+15:41:14.637 > [ 83442][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:41:14.646 > [ 83451][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -72 SNR: 12
+15:41:14.657 > [ 83462][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:41:14.666 > [ 83471][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 35 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:41:14.679 > [ 83484][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:41:14.689 > [ 83493][I][RoutingTableService.cpp:156] addNodeToRoutingTable(): [LoRaMesher] New route added: B3F0 via B3F0 metric 1, role 0
+15:41:14.700 > [ 83505][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 12
+15:41:14.710 > [ 83515][I][RoutingTableService.cpp:156] addNodeToRoutingTable(): [LoRaMesher] New route added: D110 via B3F0 metric 2, role 1
+15:41:14.721 > [ 83526][I][RoutingTableService.cpp:156] addNodeToRoutingTable(): [LoRaMesher] New route added: F02C via B3F0 metric 2, role 0
+15:41:14.732 > [ 83537][I][RoutingTableService.cpp:156] addNodeToRoutingTable(): [LoRaMesher] New route added: DE6C via B3F0 metric 2, role 0
+15:41:14.744 > [ 83548][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:41:14.752 > [ 83557][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:41:14.762 > [ 83567][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via B3F0 metric 2 Role 1
+15:41:14.771 > [ 83576][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via B3F0 metric 2 Role 0
+15:41:14.781 > [ 83586][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via B3F0 metric 2 Role 0
+15:41:14.791 > [ 83595][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:41:14.799 > [ 83604][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:41:14.808 > [ 83613][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2036
+15:41:14.818 > [ 83623][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:41:15.776 > [ 84581][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2176
+15:41:15.786 > [ 84591][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:41:15.794 > [ 84599][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:41:15.803 > [ 84608][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -72 SNR: 12
+15:41:15.814 > [ 84619][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:41:15.823 > [ 84627][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 36 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:41:15.836 > [ 84641][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:41:15.847 > [ 84651][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:41:15.855 > [ 84660][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:41:15.864 > [ 84668][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:41:15.873 > [ 84677][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2036
+15:41:15.883 > [ 84687][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:41:36.470 > [105276][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2176
+15:41:36.480 > [105286][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:41:36.488 > [105294][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:41:36.496 > [105302][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 13
+15:41:36.508 > [105314][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:41:36.516 > [105322][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 37 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:41:36.530 > [105336][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:41:36.540 > [105346][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:41:36.549 > [105355][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:41:36.557 > [105363][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:41:36.566 > [105372][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2036
+15:41:36.576 > [105382][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:41:56.428 > [125235][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2176
+15:41:56.439 > [125245][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:41:56.446 > [125253][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:41:56.455 > [125261][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -81 SNR: 12
+15:41:56.466 > [125272][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:41:56.475 > [125281][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 38 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:41:56.488 > [125295][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:41:56.499 > [125305][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:41:56.507 > [125314][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:41:56.516 > [125322][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:41:56.525 > [125331][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2036
+15:41:56.535 > [125341][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:41:59.143 > [127950][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:41:59.151 > [127957][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2328
+15:41:59.161 > [127967][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:41:59.168 > [127975][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:41:59.176 > [127983][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:41:59.184 > [127991][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:41:59.192 > [127998][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:41:59.200 > [128006][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:41:59.210 > [128016][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2260
+15:41:59.220 > [128026][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:41:59.227 > [128033][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:41:59.235 > [128041][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 1
+15:41:59.241 > [128047][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 445 ms
+15:41:59.693 > [128500][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 1 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:41:59.797 > [128604][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+15:41:59.806 > [128612][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:41:59.814 > [128621][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:42:16.353 > [145160][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:42:16.363 > [145170][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:42:16.371 > [145177][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:42:16.380 > [145186][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -75 SNR: 13
+15:42:16.391 > [145197][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:42:16.399 > [145206][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 39 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:42:16.413 > [145220][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:42:16.423 > [145230][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:42:16.432 > [145239][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:42:16.440 > [145247][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:42:16.450 > [145256][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2036
+15:42:16.459 > [145266][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:42:36.650 > [165457][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:42:36.660 > [165467][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:42:36.667 > [165474][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:42:36.676 > [165483][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 12
+15:42:36.687 > [165494][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:42:36.696 > [165503][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 40 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:42:36.710 > [165517][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:42:36.720 > [165527][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:42:36.728 > [165535][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:42:36.737 > [165544][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:42:36.746 > [165553][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2036
+15:42:36.756 > [165563][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:42:56.386 > [185193][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:42:56.397 > [185204][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:42:56.404 > [185211][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:42:56.413 > [185220][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -82 SNR: 13
+15:42:56.424 > [185231][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:42:56.432 > [185240][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 41 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:42:56.446 > [185253][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:42:56.456 > [185264][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:42:56.465 > [185272][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:42:56.474 > [185281][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:42:56.483 > [185290][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2036
+15:42:56.492 > [185300][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:43:11.920 > [200727][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:43:11.930 > [200737][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:43:11.937 > [200744][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:43:11.946 > [200753][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -71 SNR: 13
+15:43:11.957 > [200764][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:43:11.966 > [200773][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: DE6C Dst: FFFF Id: 6 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:43:11.979 > [200786][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from DE6C with size 4
+15:43:11.988 > [200796][I][RoutingTableService.cpp:119] processRoute(): [LoRaMesher] Found better route for DE6C via DE6C metric 1
+15:43:11.999 > [200806][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from DE6C: 13
+15:43:12.009 > [200816][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:43:12.017 > [200825][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:43:12.027 > [200834][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via B3F0 metric 2 Role 1
+15:43:12.037 > [200844][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via B3F0 metric 2 Role 0
+15:43:12.046 > [200854][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:43:12.056 > [200863][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:43:12.064 > [200872][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:43:12.073 > [200881][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:43:12.083 > [200891][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:43:12.545 > [201353][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:43:12.556 > [201363][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:43:12.564 > [201370][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:43:12.572 > [201379][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -69 SNR: 14
+15:43:12.583 > [201390][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:43:12.592 > [201399][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: D110 Dst: FFFF Id: 6 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:43:12.605 > [201412][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from D110 with size 4
+15:43:12.614 > [201422][I][RoutingTableService.cpp:119] processRoute(): [LoRaMesher] Found better route for D110 via D110 metric 1
+15:43:12.624 > [201432][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from D110: 14
+15:43:12.635 > [201442][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:43:12.644 > [201451][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:43:12.653 > [201460][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:43:12.662 > [201470][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via B3F0 metric 2 Role 0
+15:43:12.672 > [201480][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:43:12.682 > [201489][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:43:12.690 > [201498][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:43:12.699 > [201507][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:43:12.709 > [201517][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:43:13.720 > [202527][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:43:13.730 > [202537][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:43:13.738 > [202545][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:43:13.746 > [202554][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -78 SNR: 13
+15:43:13.758 > [202565][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:43:13.766 > [202574][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: F02C Dst: FFFF Id: 6 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:43:13.780 > [202587][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from F02C with size 4
+15:43:13.789 > [202596][I][RoutingTableService.cpp:119] processRoute(): [LoRaMesher] Found better route for F02C via F02C metric 1
+15:43:13.799 > [202606][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from F02C: 13
+15:43:13.809 > [202617][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:43:13.818 > [202625][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:43:13.827 > [202635][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:43:13.837 > [202645][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:43:13.847 > [202654][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:43:13.856 > [202664][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:43:13.865 > [202672][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:43:13.874 > [202681][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:43:13.884 > [202691][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:43:14.694 > [203501][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:43:14.704 > [203512][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:43:14.712 > [203519][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:43:14.720 > [203528][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -78 SNR: 13
+15:43:14.732 > [203539][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:43:14.740 > [203548][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 42 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:43:14.755 > [203561][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:43:14.763 > [203570][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 13
+15:43:14.773 > [203581][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:43:14.782 > [203589][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:43:14.791 > [203599][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:43:14.801 > [203609][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:43:14.812 > [203618][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:43:14.820 > [203628][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:43:14.829 > [203636][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:43:14.838 > [203645][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:43:14.848 > [203655][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:43:16.922 > [205729][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:43:16.933 > [205739][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:43:16.939 > [205747][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:43:16.948 > [205756][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 13
+15:43:16.959 > [205767][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:43:16.968 > [205776][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 43 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:43:16.982 > [205789][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:43:16.992 > [205800][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:43:17.001 > [205808][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:43:17.009 > [205817][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:43:17.018 > [205826][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:43:17.028 > [205836][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:43:36.817 > [225624][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:43:36.827 > [225634][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:43:36.835 > [225642][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:43:36.844 > [225651][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -78 SNR: 13
+15:43:36.855 > [225662][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:43:36.864 > [225670][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 44 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:43:36.877 > [225684][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:43:36.888 > [225694][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:43:36.896 > [225703][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:43:36.905 > [225711][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:43:36.914 > [225720][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:43:36.924 > [225730][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:43:56.563 > [245370][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:43:56.573 > [245380][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:43:56.581 > [245388][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:43:56.589 > [245396][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -73 SNR: 12
+15:43:56.601 > [245408][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:43:56.609 > [245416][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 45 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:43:56.623 > [245430][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:43:56.633 > [245440][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:43:56.642 > [245449][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:43:56.650 > [245457][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:43:56.659 > [245466][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:43:56.669 > [245476][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:43:59.209 > [248017][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:43:59.217 > [248024][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2328
+15:43:59.227 > [248034][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:43:59.235 > [248042][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:43:59.244 > [248050][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:43:59.251 > [248058][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:43:59.258 > [248065][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:43:59.266 > [248073][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:43:59.276 > [248083][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2244
+15:43:59.286 > [248093][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:43:59.293 > [248100][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:43:59.301 > [248108][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 2
+15:43:59.307 > [248114][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 581 ms
+15:43:59.895 > [248702][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 2 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:43:59.998 > [248806][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+15:44:00.007 > [248814][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:44:00.016 > [248823][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:44:17.195 > [266002][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:44:17.206 > [266012][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:44:17.213 > [266020][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:44:17.222 > [266028][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -79 SNR: 13
+15:44:17.233 > [266039][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:44:17.242 > [266048][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 46 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:44:17.256 > [266062][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:44:17.266 > [266072][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:44:17.274 > [266081][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:44:17.283 > [266089][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:44:17.292 > [266098][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:44:17.302 > [266108][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:44:36.645 > [285452][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:44:36.655 > [285462][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:44:36.663 > [285469][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:44:36.672 > [285478][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -81 SNR: 12
+15:44:36.683 > [285489][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:44:36.691 > [285498][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 47 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:44:36.705 > [285512][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:44:36.715 > [285522][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:44:36.724 > [285530][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:44:36.732 > [285539][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:44:36.741 > [285548][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:44:36.752 > [285558][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:44:56.929 > [305735][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:44:56.939 > [305745][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:44:56.946 > [305752][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:44:56.955 > [305761][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -84 SNR: 13
+15:44:56.966 > [305772][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:44:56.975 > [305781][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 48 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:44:56.989 > [305795][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:44:56.999 > [305805][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:44:57.007 > [305813][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:44:57.016 > [305822][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:44:57.025 > [305831][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:44:57.035 > [305841][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:45:12.075 > [320880][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:45:12.085 > [320891][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:45:12.093 > [320898][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:45:12.102 > [320907][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -65 SNR: 13
+15:45:12.113 > [320918][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:45:12.122 > [320927][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: D110 Dst: FFFF Id: 7 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:45:12.135 > [320940][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from D110 with size 4
+15:45:12.144 > [320949][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from D110: 13
+15:45:12.154 > [320959][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:45:12.163 > [320968][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:45:12.173 > [320978][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:45:12.182 > [320987][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:45:12.192 > [320997][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:45:12.201 > [321007][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:45:12.210 > [321015][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:45:12.219 > [321024][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:45:12.229 > [321034][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:45:13.411 > [322216][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:45:13.421 > [322226][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:45:13.429 > [322234][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:45:13.438 > [322243][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -81 SNR: 12
+15:45:13.449 > [322254][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:45:13.458 > [322263][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: DE6C Dst: FFFF Id: 7 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:45:13.471 > [322276][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from DE6C with size 4
+15:45:13.480 > [322285][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from DE6C: 12
+15:45:13.490 > [322295][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:45:13.499 > [322304][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:45:13.509 > [322314][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:45:13.518 > [322323][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:45:13.528 > [322333][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:45:13.537 > [322343][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:45:13.546 > [322351][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:45:13.555 > [322360][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:45:13.565 > [322370][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:45:14.317 > [323123][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:45:14.328 > [323133][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:45:14.335 > [323140][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:45:14.344 > [323149][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -90 SNR: 12
+15:45:14.355 > [323160][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:45:14.364 > [323169][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: F02C Dst: FFFF Id: 8 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:45:14.377 > [323182][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from F02C with size 4
+15:45:14.386 > [323192][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from F02C: 12
+15:45:14.397 > [323202][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:45:14.405 > [323210][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:45:14.415 > [323220][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:45:14.425 > [323230][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:45:14.434 > [323239][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:45:14.444 > [323249][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:45:14.452 > [323257][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:45:14.461 > [323266][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:45:14.471 > [323276][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:45:16.729 > [325534][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:45:16.739 > [325545][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:45:16.747 > [325552][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:45:16.756 > [325561][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -75 SNR: 12
+15:45:16.767 > [325572][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:45:16.776 > [325581][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 49 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:45:16.789 > [325594][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:45:16.798 > [325603][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 12
+15:45:16.808 > [325614][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:45:16.817 > [325622][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:45:16.827 > [325632][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:45:16.836 > [325642][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:45:16.846 > [325651][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:45:16.856 > [325661][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:45:16.864 > [325669][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:45:16.873 > [325678][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:45:16.883 > [325688][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:45:17.455 > [326260][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:45:17.465 > [326270][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:45:17.473 > [326278][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:45:17.482 > [326287][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 13
+15:45:17.493 > [326298][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:45:17.501 > [326307][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 50 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:45:17.515 > [326320][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:45:17.525 > [326331][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:45:17.534 > [326339][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:45:17.542 > [326348][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:45:17.552 > [326357][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:45:17.561 > [326367][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:45:36.842 > [345647][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:45:36.852 > [345657][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:45:36.859 > [345665][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:45:36.869 > [345674][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 12
+15:45:36.879 > [345685][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:45:36.888 > [345693][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 51 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:45:36.903 > [345707][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:45:36.912 > [345717][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:45:36.921 > [345726][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:45:36.930 > [345735][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:45:36.938 > [345744][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:45:36.949 > [345753][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:45:57.514 > [366318][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:45:57.524 > [366328][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:45:57.531 > [366336][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:45:57.540 > [366345][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -89 SNR: 13
+15:45:57.551 > [366356][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:45:57.560 > [366364][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 52 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:45:57.573 > [366378][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:45:57.584 > [366388][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:45:57.592 > [366397][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:45:57.601 > [366405][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:45:57.610 > [366414][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:45:57.620 > [366424][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:45:59.279 > [368084][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:45:59.287 > [368091][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2328
+15:45:59.298 > [368101][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:45:59.304 > [368109][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:45:59.312 > [368117][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:45:59.320 > [368125][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:45:59.328 > [368132][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:45:59.335 > [368140][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:45:59.346 > [368150][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2244
+15:45:59.355 > [368160][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:45:59.362 > [368167][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:45:59.370 > [368175][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 3
+15:45:59.377 > [368181][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 531 ms
+15:45:59.914 > [368719][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 3 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:46:00.018 > [368823][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+15:46:00.026 > [368831][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:46:00.035 > [368840][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:46:17.824 > [386628][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:46:17.834 > [386638][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:46:17.842 > [386646][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:46:17.850 > [386654][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -73 SNR: 12
+15:46:17.862 > [386666][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:46:17.870 > [386674][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 53 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:46:17.884 > [386688][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:46:17.894 > [386698][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:46:17.903 > [386707][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:46:17.911 > [386715][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:46:17.920 > [386724][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:46:17.930 > [386734][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:46:37.438 > [406242][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:46:37.449 > [406252][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:46:37.456 > [406259][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:46:37.465 > [406268][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -78 SNR: 12
+15:46:37.476 > [406279][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:46:37.485 > [406288][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 54 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:46:37.498 > [406302][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:46:37.509 > [406312][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:46:37.517 > [406321][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:46:37.526 > [406329][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:46:37.535 > [406338][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:46:37.545 > [406348][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:46:57.572 > [426375][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:46:57.582 > [426385][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:46:57.590 > [426392][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:46:57.599 > [426401][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -77 SNR: 13
+15:46:57.610 > [426412][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:46:57.618 > [426421][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 55 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:46:57.632 > [426435][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:46:57.642 > [426445][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:46:57.651 > [426453][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:46:57.659 > [426462][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:46:57.668 > [426471][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:46:57.678 > [426481][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:47:12.157 > [440960][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:47:12.168 > [440970][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:47:12.175 > [440978][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:47:12.184 > [440987][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -87 SNR: 12
+15:47:12.195 > [440998][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:47:12.204 > [441006][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: F02C Dst: FFFF Id: 9 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:47:12.217 > [441020][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from F02C with size 4
+15:47:12.226 > [441029][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from F02C: 12
+15:47:12.236 > [441039][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:47:12.245 > [441048][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:47:12.255 > [441058][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:47:12.264 > [441067][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:47:12.274 > [441077][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:47:12.284 > [441086][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:47:12.292 > [441095][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:47:12.301 > [441104][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:47:12.311 > [441114][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:47:13.121 > [441924][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:47:13.131 > [441934][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:47:13.139 > [441942][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:47:13.148 > [441950][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -84 SNR: 12
+15:47:13.159 > [441961][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:47:13.167 > [441970][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: DE6C Dst: FFFF Id: 9 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:47:13.181 > [441984][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from DE6C with size 4
+15:47:13.190 > [441993][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from DE6C: 12
+15:47:13.200 > [442003][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:47:13.209 > [442012][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:47:13.219 > [442021][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:47:13.228 > [442031][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:47:13.238 > [442041][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:47:13.247 > [442050][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:47:13.256 > [442059][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:47:13.265 > [442068][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:47:13.275 > [442078][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:47:15.315 > [444117][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:47:15.324 > [444127][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:47:15.332 > [444134][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:47:15.340 > [444143][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -66 SNR: 13
+15:47:15.352 > [444154][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:47:15.360 > [444163][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: D110 Dst: FFFF Id: 8 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:47:15.375 > [444177][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from D110 with size 4
+15:47:15.384 > [444186][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from D110: 13
+15:47:15.393 > [444196][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:47:15.402 > [444205][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:47:15.411 > [444214][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:47:15.421 > [444224][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:47:15.432 > [444233][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:47:15.440 > [444243][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:47:15.449 > [444252][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:47:15.458 > [444261][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:47:15.468 > [444271][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:47:16.621 > [445424][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:47:16.632 > [445434][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:47:16.639 > [445441][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:47:16.648 > [445450][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -76 SNR: 13
+15:47:16.658 > [445461][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:47:16.667 > [445470][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 56 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:47:16.681 > [445483][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:47:16.691 > [445493][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 13
+15:47:16.700 > [445503][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:47:16.709 > [445511][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:47:16.719 > [445521][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:47:16.729 > [445531][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:47:16.738 > [445540][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:47:16.747 > [445550][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:47:16.756 > [445558][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:47:16.765 > [445567][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:47:16.775 > [445577][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:47:17.953 > [446755][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:47:17.964 > [446766][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:47:17.971 > [446773][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:47:17.980 > [446782][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 12
+15:47:17.991 > [446793][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:47:18.000 > [446802][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 57 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:47:18.013 > [446815][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:47:18.024 > [446826][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:47:18.032 > [446834][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:47:18.041 > [446843][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:47:18.050 > [446852][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:47:18.060 > [446862][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:47:37.493 > [466295][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:47:37.503 > [466305][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:47:37.511 > [466313][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:47:37.520 > [466322][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -75 SNR: 13
+15:47:37.531 > [466333][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:47:37.540 > [466342][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 58 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:47:37.553 > [466355][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:47:37.563 > [466366][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:47:37.572 > [466374][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:47:37.581 > [466383][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:47:37.590 > [466392][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:47:37.600 > [466402][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:47:58.287 > [487092][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:47:58.297 > [487102][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:47:58.305 > [487110][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:47:58.313 > [487119][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -82 SNR: 13
+15:47:58.325 > [487130][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:47:58.333 > [487138][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 59 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:47:58.347 > [487152][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:47:58.357 > [487162][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:47:58.366 > [487171][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:47:58.374 > [487180][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:47:58.383 > [487189][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:47:58.393 > [487199][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:47:59.344 > [488151][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:47:59.352 > [488158][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2328
+15:47:59.362 > [488168][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:47:59.369 > [488176][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:47:59.377 > [488184][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:47:59.385 > [488192][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:47:59.393 > [488199][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:47:59.401 > [488207][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:47:59.411 > [488217][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2244
+15:47:59.421 > [488227][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:47:59.428 > [488234][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:47:59.436 > [488242][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 4
+15:47:59.442 > [488248][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 1168 ms
+15:48:00.616 > [489424][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 4 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:48:00.720 > [489528][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+15:48:00.729 > [489536][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:48:00.737 > [489545][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:48:17.557 > [506376][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:48:17.568 > [506386][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:48:17.575 > [506394][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:48:17.584 > [506403][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -77 SNR: 13
+15:48:17.595 > [506414][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:48:17.604 > [506422][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 60 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:48:17.618 > [506436][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:48:17.628 > [506446][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:48:17.636 > [506455][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:48:17.645 > [506463][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:48:17.654 > [506472][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:48:17.664 > [506482][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:48:37.946 > [526778][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:48:37.957 > [526788][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:48:37.965 > [526796][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:48:37.974 > [526804][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -77 SNR: 12
+15:48:37.985 > [526816][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:48:37.993 > [526824][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 61 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:48:38.007 > [526838][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:48:38.017 > [526848][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:48:38.026 > [526857][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:48:38.034 > [526865][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:48:38.043 > [526874][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:48:38.053 > [526884][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:48:58.069 > [546911][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:48:58.080 > [546921][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:48:58.087 > [546929][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:48:58.095 > [546937][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 13
+15:48:58.106 > [546948][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:48:58.116 > [546957][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 62 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:48:58.129 > [546971][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:48:58.139 > [546981][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:48:58.147 > [546990][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:48:58.156 > [546998][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:48:58.165 > [547007][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:48:58.175 > [547017][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:49:12.105 > [560954][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:49:12.115 > [560964][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:49:12.123 > [560971][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:49:12.132 > [560980][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -84 SNR: 13
+15:49:12.143 > [560991][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:49:12.152 > [561000][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: F02C Dst: FFFF Id: 10 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:49:12.165 > [561013][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from F02C with size 4
+15:49:12.174 > [561023][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from F02C: 13
+15:49:12.184 > [561033][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:49:12.193 > [561041][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:49:12.203 > [561051][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:49:12.212 > [561061][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:49:12.222 > [561070][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:49:12.232 > [561080][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:49:12.240 > [561088][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:49:12.249 > [561097][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:49:12.259 > [561107][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:49:12.869 > [561718][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:49:12.879 > [561728][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:49:12.887 > [561735][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:49:12.896 > [561744][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -67 SNR: 13
+15:49:12.907 > [561755][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:49:12.915 > [561764][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: D110 Dst: FFFF Id: 9 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:49:12.929 > [561777][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from D110 with size 4
+15:49:12.938 > [561786][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from D110: 13
+15:49:12.948 > [561797][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:49:12.957 > [561805][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:49:12.967 > [561815][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:49:12.976 > [561825][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:49:12.986 > [561834][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:49:12.995 > [561844][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:49:13.004 > [561852][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:49:13.013 > [561861][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:49:13.023 > [561871][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:49:13.818 > [562667][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:49:13.828 > [562678][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:49:13.836 > [562685][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:49:13.845 > [562694][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -92 SNR: 12
+15:49:13.856 > [562705][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:49:13.864 > [562714][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: DE6C Dst: FFFF Id: 10 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:49:13.879 > [562727][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from DE6C with size 4
+15:49:13.887 > [562736][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from DE6C: 12
+15:49:13.897 > [562747][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:49:13.906 > [562755][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:49:13.916 > [562765][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:49:13.925 > [562775][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:49:13.935 > [562784][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:49:13.944 > [562794][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:49:13.953 > [562802][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:49:13.962 > [562811][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:49:13.972 > [562821][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:49:15.526 > [564376][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:49:15.537 > [564386][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:49:15.544 > [564393][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:49:15.553 > [564402][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -76 SNR: 13
+15:49:15.564 > [564413][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:49:15.573 > [564422][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 63 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:49:15.586 > [564436][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:49:15.595 > [564445][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 13
+15:49:15.606 > [564455][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:49:15.614 > [564464][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:49:15.624 > [564473][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:49:15.633 > [564483][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:49:15.643 > [564493][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:49:15.653 > [564502][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:49:15.661 > [564511][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:49:15.670 > [564520][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:49:15.680 > [564530][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:49:18.532 > [567384][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:49:18.543 > [567394][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:49:18.551 > [567401][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:49:18.559 > [567410][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -77 SNR: 13
+15:49:18.570 > [567421][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:49:18.579 > [567430][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 64 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:49:18.592 > [567444][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:49:18.602 > [567454][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:49:18.611 > [567462][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:49:18.619 > [567471][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:49:18.629 > [567480][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:49:18.638 > [567490][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:49:38.062 > [586922][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:49:38.073 > [586932][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:49:38.080 > [586939][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:49:38.089 > [586948][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -74 SNR: 12
+15:49:38.100 > [586959][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:49:38.109 > [586968][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 65 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:49:38.123 > [586982][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:49:38.133 > [586992][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:49:38.142 > [587000][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:49:38.150 > [587009][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:49:38.159 > [587018][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:49:38.169 > [587028][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:49:57.086 > [605952][V][LoraMesher.cpp:694] routingTableManager(): [LoRaMesher] Stack space unused after entering the task: 2296
+15:49:57.097 > [605962][V][LoraMesher.cpp:695] routingTableManager(): [LoRaMesher] Free heap: 336276
+15:49:57.104 > [605970][I][RoutingTableService.cpp:216] manageTimeoutRoutingTable(): [LoRaMesher] Checking routes timeout
+15:49:57.114 > [605979][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:49:57.123 > [605988][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:49:57.132 > [605997][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:49:57.142 > [606007][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:49:57.152 > [606017][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:49:58.173 > [607038][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:49:58.182 > [607049][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:49:58.190 > [607056][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:49:58.199 > [607065][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -73 SNR: 12
+15:49:58.210 > [607076][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:49:58.219 > [607085][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 66 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:49:58.232 > [607098][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:49:58.243 > [607109][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:49:58.251 > [607117][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:49:58.260 > [607126][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:49:58.269 > [607135][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:49:58.279 > [607145][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:49:59.351 > [608218][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:49:59.359 > [608225][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2328
+15:49:59.369 > [608235][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:49:59.377 > [608243][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:49:59.385 > [608251][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:49:59.393 > [608259][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:49:59.400 > [608266][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:49:59.408 > [608274][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:49:59.419 > [608284][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2228
+15:49:59.428 > [608294][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:49:59.435 > [608301][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:49:59.443 > [608309][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 5
+15:49:59.449 > [608315][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 1181 ms
+15:50:00.637 > [609504][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 5 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:50:00.740 > [609608][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+15:50:00.749 > [609616][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:50:00.759 > [609625][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:50:18.053 > [626925][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:50:18.063 > [626935][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:50:18.071 > [626943][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:50:18.079 > [626952][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -75 SNR: 13
+15:50:18.091 > [626963][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:50:18.099 > [626971][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 67 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:50:18.113 > [626985][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:50:18.123 > [626996][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:50:18.133 > [627004][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:50:18.140 > [627013][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:50:18.149 > [627022][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:50:18.159 > [627032][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:50:38.989 > [647867][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:50:39.001 > [647877][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:50:39.007 > [647885][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:50:39.016 > [647894][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -74 SNR: 13
+15:50:39.027 > [647905][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:50:39.036 > [647913][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 68 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:50:39.049 > [647927][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:50:39.060 > [647937][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:50:39.068 > [647946][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:50:39.077 > [647954][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:50:39.086 > [647963][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:50:39.096 > [647973][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:50:58.351 > [667234][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:50:58.362 > [667244][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:50:58.370 > [667252][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:50:58.379 > [667260][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -77 SNR: 13
+15:50:58.390 > [667272][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:50:58.398 > [667280][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 69 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:50:58.412 > [667294][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:50:58.422 > [667304][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:50:58.431 > [667313][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:50:58.439 > [667321][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:50:58.448 > [667330][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:50:58.458 > [667340][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:51:12.419 > [681304][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:51:12.429 > [681314][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:51:12.437 > [681322][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:51:12.446 > [681331][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -66 SNR: 10
+15:51:12.457 > [681342][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:51:12.466 > [681350][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: D110 Dst: FFFF Id: 10 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:51:12.479 > [681364][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from D110 with size 4
+15:51:12.488 > [681373][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from D110: 10
+15:51:12.498 > [681383][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:51:12.507 > [681392][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:51:12.517 > [681402][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:51:12.526 > [681411][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:51:12.536 > [681421][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:51:12.546 > [681431][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:51:12.554 > [681439][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:51:12.563 > [681448][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:51:12.573 > [681458][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:51:14.802 > [683688][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:51:14.813 > [683698][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:51:14.819 > [683706][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:51:14.829 > [683714][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -76 SNR: 12
+15:51:14.839 > [683725][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:51:14.848 > [683734][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 70 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:51:14.862 > [683748][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:51:14.871 > [683757][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 12
+15:51:14.881 > [683767][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:51:14.890 > [683776][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:51:14.899 > [683785][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:51:14.909 > [683795][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:51:14.919 > [683805][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:51:14.928 > [683814][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:51:14.937 > [683823][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:51:14.946 > [683832][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:51:14.956 > [683842][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:51:18.312 > [687199][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:51:18.323 > [687209][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:51:18.330 > [687216][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:51:18.339 > [687225][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -74 SNR: 13
+15:51:18.350 > [687236][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:51:18.359 > [687245][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 71 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:51:18.373 > [687259][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:51:18.383 > [687269][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:51:18.391 > [687278][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:51:18.400 > [687286][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:51:18.409 > [687295][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:51:18.419 > [687305][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:51:38.859 > [707750][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:51:38.869 > [707760][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:51:38.877 > [707767][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:51:38.886 > [707776][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -77 SNR: 13
+15:51:38.897 > [707787][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:51:38.906 > [707796][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 72 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:51:38.919 > [707810][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:51:38.929 > [707820][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:51:38.938 > [707828][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:51:38.946 > [707837][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:51:38.956 > [707846][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:51:38.965 > [707856][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:51:58.622 > [727515][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:51:58.632 > [727526][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:51:58.639 > [727533][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:51:58.648 > [727542][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -79 SNR: 13
+15:51:58.659 > [727553][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:51:58.668 > [727562][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 73 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:51:58.682 > [727575][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:51:58.692 > [727586][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:51:58.701 > [727594][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:51:58.709 > [727603][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:51:58.718 > [727612][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:51:58.728 > [727622][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:51:59.390 > [728285][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:51:59.399 > [728292][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2328
+15:51:59.409 > [728302][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:51:59.416 > [728310][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:51:59.424 > [728318][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:51:59.432 > [728326][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:51:59.440 > [728333][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:51:59.447 > [728341][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:51:59.458 > [728351][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2228
+15:51:59.467 > [728361][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:51:59.474 > [728368][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:51:59.482 > [728376][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 6
+15:51:59.489 > [728382][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 453 ms
+15:51:59.947 > [728842][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 6 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:52:00.051 > [728946][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+15:52:00.061 > [728954][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:52:00.069 > [728963][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:52:19.364 > [748261][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:52:19.375 > [748271][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:52:19.382 > [748279][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:52:19.391 > [748288][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -75 SNR: 12
+15:52:19.402 > [748299][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:52:19.411 > [748308][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 74 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:52:19.424 > [748321][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:52:19.435 > [748332][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:52:19.443 > [748340][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:52:19.452 > [748349][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:52:19.461 > [748358][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:52:19.471 > [748368][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:52:39.247 > [768147][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:52:39.258 > [768157][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:52:39.266 > [768165][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:52:39.274 > [768174][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -85 SNR: 12
+15:52:39.286 > [768185][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:52:39.294 > [768193][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 75 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:52:39.308 > [768207][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:52:39.318 > [768217][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:52:39.327 > [768226][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:52:39.335 > [768234][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:52:39.344 > [768243][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:52:39.354 > [768253][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:52:58.978 > [787880][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:52:58.989 > [787890][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:52:58.996 > [787898][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:52:59.004 > [787906][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -83 SNR: 12
+15:52:59.016 > [787918][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:52:59.025 > [787926][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 76 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:52:59.038 > [787940][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:52:59.049 > [787950][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:52:59.056 > [787959][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:52:59.065 > [787967][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:52:59.074 > [787976][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:52:59.084 > [787986][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:53:12.087 > [800990][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:53:12.097 > [801001][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:53:12.104 > [801008][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:53:12.113 > [801017][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -72 SNR: 13
+15:53:12.124 > [801028][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:53:12.133 > [801037][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: DE6C Dst: FFFF Id: 12 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:53:12.147 > [801050][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from DE6C with size 4
+15:53:12.156 > [801059][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from DE6C: 13
+15:53:12.166 > [801070][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:53:12.175 > [801078][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:53:12.184 > [801088][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:53:12.194 > [801098][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:53:12.204 > [801107][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:53:12.213 > [801117][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:53:12.222 > [801125][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:53:12.231 > [801134][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:53:12.241 > [801144][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:53:13.204 > [802108][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:53:13.214 > [802118][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:53:13.222 > [802125][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:53:13.231 > [802134][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -68 SNR: 13
+15:53:13.242 > [802145][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:53:13.250 > [802154][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: D110 Dst: FFFF Id: 11 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:53:13.264 > [802168][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from D110 with size 4
+15:53:13.273 > [802177][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from D110: 13
+15:53:13.283 > [802187][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:53:13.292 > [802196][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:53:13.302 > [802205][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:53:13.311 > [802215][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:53:13.321 > [802224][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:53:13.330 > [802234][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:53:13.339 > [802243][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:53:13.348 > [802252][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2020
+15:53:13.358 > [802262][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:53:14.370 > [803274][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:53:14.381 > [803285][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:53:14.388 > [803292][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:53:14.397 > [803301][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -80 SNR: 13
+15:53:14.408 > [803312][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:53:14.417 > [803321][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: F02C Dst: FFFF Id: 12 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:53:14.430 > [803334][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from F02C with size 4
+15:53:14.440 > [803343][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from F02C: 13
+15:53:14.450 > [803354][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:53:14.459 > [803362][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:53:14.468 > [803372][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:53:14.478 > [803381][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:53:14.487 > [803391][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:53:14.497 > [803401][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:53:14.506 > [803409][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:53:14.515 > [803418][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:53:14.524 > [803428][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:53:15.205 > [804109][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:53:15.215 > [804119][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:53:15.223 > [804127][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:53:15.232 > [804135][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -77 SNR: 13
+15:53:15.243 > [804147][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:53:15.252 > [804155][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 77 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:53:15.265 > [804169][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:53:15.274 > [804178][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 13
+15:53:15.284 > [804188][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:53:15.293 > [804197][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:53:15.303 > [804206][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:53:15.312 > [804216][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:53:15.322 > [804226][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:53:15.332 > [804235][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:53:15.340 > [804244][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:53:15.349 > [804253][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:53:15.359 > [804263][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:53:19.305 > [808210][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:53:19.315 > [808220][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:53:19.323 > [808228][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:53:19.333 > [808236][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -81 SNR: 12
+15:53:19.343 > [808247][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:53:19.351 > [808256][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 78 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:53:19.366 > [808270][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:53:19.375 > [808280][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:53:19.384 > [808289][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:53:19.392 > [808297][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:53:19.401 > [808306][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:53:19.411 > [808316][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:53:39.253 > [828160][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:53:39.264 > [828170][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:53:39.270 > [828177][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:53:39.280 > [828186][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -83 SNR: 13
+15:53:39.290 > [828197][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:53:39.300 > [828206][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 79 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:53:39.314 > [828220][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:53:39.323 > [828230][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:53:39.331 > [828238][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:53:39.341 > [828247][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:53:39.349 > [828256][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:53:39.360 > [828266][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:53:59.222 > [848131][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:53:59.232 > [848141][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:53:59.240 > [848148][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:53:59.249 > [848157][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -78 SNR: 13
+15:53:59.260 > [848168][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:53:59.269 > [848177][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 80 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:53:59.282 > [848191][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:53:59.292 > [848201][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:53:59.301 > [848209][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:53:59.310 > [848218][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:53:59.319 > [848227][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:53:59.329 > [848237][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:53:59.443 > [848352][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:53:59.451 > [848359][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2328
+15:53:59.461 > [848369][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:53:59.468 > [848377][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:53:59.477 > [848385][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:53:59.484 > [848393][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:53:59.492 > [848400][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:53:59.500 > [848408][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:53:59.523 > [848418][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2196
+15:53:59.523 > [848428][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:53:59.527 > [848435][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:53:59.535 > [848443][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 7
+15:53:59.541 > [848449][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 415 ms
+15:53:59.962 > [848871][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 7 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:54:00.065 > [848975][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+15:54:00.075 > [848983][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:54:00.083 > [848992][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:54:19.252 > [868162][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:54:19.262 > [868173][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:54:19.270 > [868180][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:54:19.278 > [868189][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -79 SNR: 13
+15:54:19.290 > [868200][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:54:19.298 > [868209][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 81 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:54:19.312 > [868222][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:54:19.322 > [868233][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:54:19.331 > [868241][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:54:19.339 > [868250][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:54:19.348 > [868259][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:54:19.358 > [868269][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:54:39.357 > [888269][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:54:39.368 > [888279][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:54:39.375 > [888287][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:54:39.384 > [888296][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -82 SNR: 13
+15:54:39.395 > [888307][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:54:39.404 > [888315][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 82 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:54:39.417 > [888329][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:54:39.428 > [888339][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:54:39.436 > [888348][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:54:39.445 > [888357][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:54:39.454 > [888366][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:54:39.464 > [888376][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:55:00.011 > [908925][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:55:00.021 > [908935][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:55:00.030 > [908943][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:55:00.037 > [908952][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -85 SNR: 12
+15:55:00.049 > [908963][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:55:00.057 > [908971][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 83 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:55:00.071 > [908985][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:55:00.081 > [908995][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:55:00.090 > [909004][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:55:00.098 > [909012][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:55:00.107 > [909021][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:55:00.117 > [909031][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:55:12.170 > [921086][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:55:12.181 > [921096][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:55:12.189 > [921103][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:55:12.198 > [921112][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -73 SNR: 13
+15:55:12.208 > [921123][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:55:12.218 > [921132][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: F02C Dst: FFFF Id: 13 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:55:12.230 > [921145][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from F02C with size 4
+15:55:12.239 > [921155][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from F02C: 13
+15:55:12.251 > [921165][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:55:12.258 > [921174][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:55:12.268 > [921183][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:55:12.278 > [921193][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:55:12.287 > [921202][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:55:12.297 > [921212][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:55:12.305 > [921221][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:55:12.314 > [921230][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:55:12.324 > [921240][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:55:12.890 > [921805][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:55:12.901 > [921815][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:55:12.908 > [921823][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:55:12.917 > [921832][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -69 SNR: 3
+15:55:12.928 > [921843][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:55:12.936 > [921852][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: D110 Dst: FFFF Id: 12 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:55:12.950 > [921865][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from D110 with size 4
+15:55:12.959 > [921874][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from D110: 3
+15:55:12.969 > [921884][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:55:12.978 > [921893][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:55:12.987 > [921903][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:55:12.997 > [921912][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:55:13.007 > [921922][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:55:13.016 > [921931][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:55:13.025 > [921940][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:55:13.034 > [921949][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:55:13.044 > [921959][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:55:14.941 > [923856][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:55:14.951 > [923866][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:55:14.958 > [923874][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:55:14.967 > [923883][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -83 SNR: 12
+15:55:14.978 > [923894][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:55:14.987 > [923902][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 84 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:55:15.001 > [923916][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:55:15.010 > [923925][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 12
+15:55:15.020 > [923935][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:55:15.029 > [923944][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:55:15.038 > [923954][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:55:15.048 > [923963][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:55:15.057 > [923973][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:55:15.067 > [923982][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:55:15.076 > [923991][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:55:15.085 > [924000][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:55:15.095 > [924010][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:55:20.026 > [928942][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:55:20.037 > [928952][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:55:20.045 > [928960][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:55:20.053 > [928968][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -87 SNR: 12
+15:55:20.064 > [928980][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:55:20.073 > [928988][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 85 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:55:20.087 > [929002][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:55:20.097 > [929012][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:55:20.105 > [929021][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:55:20.114 > [929029][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:55:20.123 > [929038][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:55:20.133 > [929048][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:55:39.945 > [948863][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:55:39.956 > [948873][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:55:39.964 > [948880][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:55:39.973 > [948889][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -87 SNR: 13
+15:55:39.984 > [948900][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:55:39.992 > [948909][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 86 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:55:40.006 > [948923][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:55:40.016 > [948933][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:55:40.025 > [948942][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:55:40.033 > [948950][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:55:40.043 > [948959][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:55:40.052 > [948969][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:55:59.500 > [968419][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:55:59.508 > [968426][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2328
+15:55:59.517 > [968436][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:55:59.525 > [968444][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:55:59.534 > [968452][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:55:59.542 > [968460][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:55:59.549 > [968467][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:55:59.557 > [968475][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:55:59.568 > [968485][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2196
+15:55:59.577 > [968495][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:55:59.583 > [968502][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:55:59.591 > [968510][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 8
+15:55:59.597 > [968516][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 916 ms
+15:56:00.265 > [969184][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:56:00.276 > [969194][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336204
+15:56:00.282 > [969201][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:56:00.291 > [969210][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -87 SNR: 12
+15:56:00.302 > [969221][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:56:00.311 > [969230][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 87 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:56:00.326 > [969244][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:56:00.335 > [969254][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:56:00.344 > [969263][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:56:00.352 > [969271][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:56:00.361 > [969280][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:56:00.372 > [969290][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336204
+15:56:00.525 > [969444][V][LoraMesher.cpp:462] waitBeforeSend(): [LoRaMesher] Preamble detected while waiting 1
+15:56:00.535 > [969453][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 1113 ms
+15:56:01.654 > [970573][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 8 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:56:01.757 > [970676][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+15:56:01.766 > [970685][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:56:01.776 > [970694][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:56:19.916 > [988837][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:56:19.926 > [988847][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:56:19.934 > [988854][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:56:19.943 > [988863][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -92 SNR: 12
+15:56:19.954 > [988874][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:56:19.963 > [988883][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 88 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:56:19.976 > [988897][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:56:19.987 > [988907][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:56:19.995 > [988915][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:56:20.004 > [988924][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:56:20.013 > [988933][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:56:20.023 > [988943][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:56:40.080 > [1009001][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:56:40.090 > [1009012][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:56:40.098 > [1009019][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:56:40.107 > [1009028][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -80 SNR: 13
+15:56:40.118 > [1009039][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:56:40.127 > [1009048][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 89 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:56:40.140 > [1009062][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:56:40.151 > [1009072][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:56:40.159 > [1009081][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:56:40.168 > [1009089][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:56:40.177 > [1009099][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:56:40.187 > [1009109][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:57:00.110 > [1029033][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:57:00.121 > [1029043][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:57:00.128 > [1029051][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:57:00.137 > [1029060][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -80 SNR: 13
+15:57:00.148 > [1029071][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:57:00.157 > [1029080][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 90 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:57:00.171 > [1029094][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:57:00.181 > [1029104][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:57:00.190 > [1029113][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:57:00.199 > [1029121][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:57:00.208 > [1029130][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 2004
+15:57:00.218 > [1029140][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:57:12.329 > [1041224][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:57:12.340 > [1041235][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:57:12.347 > [1041242][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:57:12.356 > [1041251][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -73 SNR: 12
+15:57:12.367 > [1041262][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:57:12.376 > [1041271][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: DE6C Dst: FFFF Id: 14 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:57:12.390 > [1041285][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from DE6C with size 4
+15:57:12.400 > [1041294][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from DE6C: 12
+15:57:12.409 > [1041304][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:57:12.418 > [1041313][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:57:12.428 > [1041323][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:57:12.438 > [1041333][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:57:12.447 > [1041342][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:57:12.457 > [1041352][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:57:12.466 > [1041361][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:57:12.475 > [1041370][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:57:12.485 > [1041380][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:57:13.291 > [1042184][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:57:13.301 > [1042194][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:57:13.309 > [1042202][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:57:13.318 > [1042211][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -69 SNR: 13
+15:57:13.329 > [1042222][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:57:13.339 > [1042231][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: D110 Dst: FFFF Id: 13 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:57:13.351 > [1042244][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from D110 with size 4
+15:57:13.361 > [1042254][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from D110: 13
+15:57:13.371 > [1042264][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:57:13.380 > [1042273][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:57:13.394 > [1042282][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:57:13.399 > [1042292][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:57:13.410 > [1042302][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:57:13.418 > [1042311][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:57:13.428 > [1042320][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:57:13.436 > [1042329][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:57:13.446 > [1042339][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:57:14.497 > [1043388][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:57:14.508 > [1043398][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:57:14.516 > [1043406][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:57:14.525 > [1043415][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -73 SNR: 12
+15:57:14.536 > [1043426][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:57:14.545 > [1043435][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: F02C Dst: FFFF Id: 14 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:57:14.558 > [1043448][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from F02C with size 4
+15:57:14.568 > [1043458][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from F02C: 12
+15:57:14.578 > [1043468][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:57:14.587 > [1043477][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:57:14.596 > [1043486][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:57:14.606 > [1043496][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:57:14.617 > [1043506][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:57:14.626 > [1043516][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:57:14.634 > [1043524][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:57:14.643 > [1043533][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:57:14.653 > [1043543][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:57:15.770 > [1044658][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:57:15.780 > [1044668][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:57:15.789 > [1044676][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:57:15.797 > [1044685][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -91 SNR: 12
+15:57:15.809 > [1044696][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:57:15.818 > [1044705][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 91 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:57:15.831 > [1044718][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:57:15.841 > [1044728][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 12
+15:57:15.851 > [1044738][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:57:15.860 > [1044747][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:57:15.870 > [1044757][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:57:15.879 > [1044766][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:57:15.889 > [1044776][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:57:15.899 > [1044786][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:57:15.907 > [1044794][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:57:15.916 > [1044803][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:57:15.926 > [1044813][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:57:20.866 > [1049743][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:57:20.876 > [1049753][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:57:20.884 > [1049761][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:57:20.893 > [1049770][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -87 SNR: 13
+15:57:20.904 > [1049781][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:57:20.913 > [1049790][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 92 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:57:20.927 > [1049804][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:57:20.937 > [1049814][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:57:20.946 > [1049823][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:57:20.954 > [1049831][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:57:20.963 > [1049840][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:57:20.973 > [1049850][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:57:40.792 > [1069635][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:57:40.803 > [1069645][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:57:40.810 > [1069653][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:57:40.819 > [1069662][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -85 SNR: 13
+15:57:40.831 > [1069673][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:57:40.839 > [1069682][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 93 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:57:40.853 > [1069695][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:57:40.863 > [1069706][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:57:40.872 > [1069714][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:57:40.881 > [1069723][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:57:40.890 > [1069732][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:57:40.900 > [1069742][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:57:59.668 > [1088486][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:57:59.677 > [1088493][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2328
+15:57:59.687 > [1088504][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:57:59.694 > [1088511][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:57:59.703 > [1088519][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:57:59.711 > [1088527][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:57:59.718 > [1088535][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:57:59.726 > [1088543][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:57:59.737 > [1088553][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2196
+15:57:59.746 > [1088563][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:57:59.753 > [1088570][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:57:59.761 > [1088578][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 9
+15:57:59.768 > [1088584][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 713 ms
+15:58:00.485 > [1089302][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:58:00.496 > [1089312][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336204
+15:58:00.504 > [1089320][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:58:00.513 > [1089328][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -82 SNR: 13
+15:58:00.524 > [1089340][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:58:00.533 > [1089348][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 94 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:58:00.547 > [1089351][V][LoraMesher.cpp:462] waitBeforeSend(): [LoRaMesher] Preamble detected while waiting 1
+15:58:00.555 > [1089371][V][[L1o0r8a9M3e7s1h]e[rI.]c[pLpo:r4a5M5e]s hweari.tcBpepf:o8r5e4S]e npdr(o)c:e s[sLDoaRtaaMPeaschkeert]( )R:a n[dLoomRDaMeayer]6Daspacket from B3F0, destination D110, via D110
+15:58:00.572 > [1089387][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:58:00.581 > [1089396][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:58:00.589 > [1089405][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:58:00.598 > [1089414][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:58:00.608 > [1089424][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336204
+15:58:01.397 > [1090213][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 9 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:58:01.501 > [1090317][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+15:58:01.511 > [1090325][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:58:01.519 > [1090334][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:58:20.555 > [1109351][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:58:20.566 > [1109361][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:58:20.574 > [1109368][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:58:20.583 > [1109377][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -83 SNR: 13
+15:58:20.594 > [1109389][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:58:20.603 > [1109397][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 95 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:58:20.616 > [1109411][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:58:20.627 > [1109421][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:58:20.635 > [1109430][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:58:20.644 > [1109439][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:58:20.653 > [1109448][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:58:20.663 > [1109458][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:58:40.632 > [1129410][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:58:40.643 > [1129421][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:58:40.650 > [1129428][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:58:40.659 > [1129437][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -81 SNR: 12
+15:58:40.670 > [1129448][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:58:40.679 > [1129457][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 96 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:58:40.693 > [1129471][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:58:40.703 > [1129481][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:58:40.712 > [1129490][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:58:40.720 > [1129499][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:58:40.730 > [1129508][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:58:40.740 > [1129518][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:59:00.865 > [1149630][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:59:00.875 > [1149641][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:59:00.883 > [1149648][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:59:00.892 > [1149657][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 12
+15:59:00.903 > [1149668][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:59:00.912 > [1149677][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 97 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:59:00.925 > [1149691][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:59:00.936 > [1149701][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:59:00.944 > [1149710][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:59:00.953 > [1149718][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:59:00.962 > [1149727][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:59:00.972 > [1149738][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:59:12.582 > [1161341][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:59:12.592 > [1161351][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:59:12.600 > [1161358][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:59:12.609 > [1161367][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -68 SNR: 13
+15:59:12.620 > [1161379][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:59:12.630 > [1161387][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: D110 Dst: FFFF Id: 14 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:59:12.643 > [1161401][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from D110 with size 4
+15:59:12.652 > [1161410][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from D110: 13
+15:59:12.662 > [1161420][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:59:12.671 > [1161429][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:59:12.680 > [1161439][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:59:12.690 > [1161449][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:59:12.700 > [1161458][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:59:12.710 > [1161468][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:59:12.718 > [1161477][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:59:12.727 > [1161486][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:59:12.738 > [1161496][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:59:13.973 > [1162731][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:59:13.984 > [1162741][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:59:13.991 > [1162749][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:59:14.001 > [1162758][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -77 SNR: 12
+15:59:14.011 > [1162769][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:59:14.020 > [1162778][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: DE6C Dst: FFFF Id: 15 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:59:14.034 > [1162791][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from DE6C with size 4
+15:59:14.043 > [1162801][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from DE6C: 12
+15:59:14.053 > [1162811][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:59:14.062 > [1162820][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:59:14.072 > [1162829][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:59:14.081 > [1162839][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:59:14.091 > [1162849][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:59:14.101 > [1162858][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:59:14.109 > [1162867][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:59:14.119 > [1162876][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:59:14.129 > [1162886][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:59:14.634 > [1163391][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:59:14.645 > [1163402][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:59:14.654 > [1163409][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:59:14.661 > [1163418][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -72 SNR: 12
+15:59:14.672 > [1163429][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:59:14.681 > [1163438][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: F02C Dst: FFFF Id: 15 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:59:14.694 > [1163452][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from F02C with size 4
+15:59:14.703 > [1163461][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from F02C: 12
+15:59:14.714 > [1163471][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:59:14.722 > [1163480][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:59:14.732 > [1163490][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:59:14.742 > [1163499][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:59:14.752 > [1163509][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:59:14.762 > [1163519][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:59:14.770 > [1163527][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:59:14.780 > [1163537][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:59:14.789 > [1163547][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:59:15.259 > [1164016][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:59:15.270 > [1164027][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:59:15.278 > [1164034][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 24 bytes
+15:59:15.286 > [1164043][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 24 bytes RSSI: -73 SNR: 13
+15:59:15.298 > [1164054][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:59:15.307 > [1164063][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 24 Src: B3F0 Dst: FFFF Id: 98 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+15:59:15.320 > [1164077][I][RoutingTableService.cpp:77] processRoute(): [LoRaMesher] Route packet from B3F0 with size 4
+15:59:15.329 > [1164086][I][RoutingTableService.cpp:99] resetReceiveSNRRoutePacket(): [LoRaMesher] Reset Receive SNR from B3F0: 13
+15:59:15.340 > [1164096][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:59:15.348 > [1164105][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:59:15.358 > [1164115][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:59:15.368 > [1164124][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:59:15.378 > [1164134][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:59:15.387 > [1164144][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:59:15.396 > [1164152][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:59:15.405 > [1164161][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:59:15.416 > [1164172][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:59:21.603 > [1170357][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:59:21.614 > [1170367][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:59:21.623 > [1170375][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:59:21.631 > [1170384][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -76 SNR: 12
+15:59:21.641 > [1170395][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:59:21.650 > [1170404][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 99 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:59:21.664 > [1170418][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:59:21.674 > [1170428][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:59:21.683 > [1170437][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:59:21.692 > [1170445][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:59:21.701 > [1170454][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:59:21.711 > [1170464][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:59:41.610 > [1190355][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+15:59:41.621 > [1190365][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+15:59:41.629 > [1190373][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+15:59:41.638 > [1190382][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -81 SNR: 13
+15:59:41.649 > [1190393][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+15:59:41.658 > [1190402][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 100 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+15:59:41.672 > [1190416][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+15:59:41.682 > [1190426][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+15:59:41.691 > [1190435][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+15:59:41.699 > [1190443][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+15:59:41.709 > [1190452][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+15:59:41.719 > [1190462][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
+15:59:57.288 > [1206026][V][LoraMesher.cpp:694] routingTableManager(): [LoRaMesher] Stack space unused after entering the task: 2296
+15:59:57.298 > [1206036][V][LoraMesher.cpp:695] routingTableManager(): [LoRaMesher] Free heap: 336276
+15:59:57.306 > [1206044][I][RoutingTableService.cpp:216] manageTimeoutRoutingTable(): [LoRaMesher] Checking routes timeout
+15:59:57.315 > [1206053][I][RoutingTableService.cpp:192] printRoutingTable(): [LoRaMesher] Current routing table:
+15:59:57.324 > [1206062][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 0 - B3F0 via B3F0 metric 1 Role 0
+15:59:57.334 > [1206072][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 1 - D110 via D110 metric 1 Role 1
+15:59:57.343 > [1206082][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 2 - F02C via F02C metric 1 Role 0
+15:59:57.353 > [1206091][I][RoutingTableService.cpp:206] printRoutingTable(): [LoRaMesher] 3 - DE6C via DE6C metric 1 Role 0
+15:59:59.816 > [1208554][V][LoraMesher.cpp:598] sendHelloPacket(): [LoRaMesher] Creating Routing Packet
+15:59:59.824 > [1208561][V][LoraMesher.cpp:599] sendHelloPacket(): [LoRaMesher] Stack space unused after entering the task: 2152
+15:59:59.834 > [1208572][V][LoraMesher.cpp:600] sendHelloPacket(): [LoRaMesher] Free heap: 336276
+15:59:59.842 > [1208579][V][PacketFactory.h:45] createPacket(): [LoRaMesher] Creating packet with 24 bytes
+15:59:59.850 > [1208587][I][PacketFactory.h:74] createPacket(): [LoRaMesher] Packet created with 24 bytes
+15:59:59.858 > [1208595][I][LoraMesher.h:659] setPackedForSend(): [LoRaMesher] Adding packet to Q_SP
+15:59:59.866 > [1208603][I][LoraMesher.h:661] setPackedForSend(): [LoRaMesher] Created packet to Q_SP
+15:59:59.873 > [1208611][I][LoraMesher.cpp:1061] addToSendOrderedAndNotify(): [LoRaMesher] Added packet to Q_SP, notifying sender task
+15:59:59.884 > [1208621][V][LoraMesher.cpp:511] sendPackets(): [LoRaMesher] Stack space unused after entering the task: 2196
+15:59:59.894 > [1208631][V][LoraMesher.cpp:512] sendPackets(): [LoRaMesher] Free heap: 336176
+15:59:59.901 > [1208638][V][LoraMesher.cpp:518] sendPackets(): [LoRaMesher] Size of Send Packets Queue: 1
+15:59:59.909 > [1208646][V][LoraMesher.cpp:525] sendPackets(): [LoRaMesher] Send n. 10
+15:59:59.915 > [1208652][V][LoraMesher.cpp:455] waitBeforeSend(): [LoRaMesher] RandomDelay 1165 ms
+16:00:01.088 > [1209825][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet send -- Size: 24 Src: C998 Dst: FFFF Id: 10 Type: 4 Via: 0 Seq_Id: 0 Num: 0
+16:00:01.192 > [1209929][V][LoraMesher.cpp:575] sendPackets(): [LoRaMesher] TimeOnAir 78 ms, next message in 0 ms
+16:00:01.201 > [1209938][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+16:00:01.210 > [1209946][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+16:00:02.194 > [1210931][V][LoraMesher.cpp:378] receivingRoutine(): [LoRaMesher] Stack space unused after entering the task: 2144
+16:00:02.205 > [1210941][V][LoraMesher.cpp:379] receivingRoutine(): [LoRaMesher] Free heap: 336276
+16:00:02.213 > [1210949][I][PacketService.cpp:12] createEmptyPacket(): [LoRaMesher] Packet created with 17 bytes
+16:00:02.221 > [1210958][I][LoraMesher.cpp:392] receivingRoutine(): [LoRaMesher] Receiving LoRa packet: Size: 17 bytes RSSI: -78 SNR: 13
+16:00:02.233 > [1210969][V][LoraMesher.cpp:647] processPackets(): [LoRaMesher] Size of Received Packets Queue: 1
+16:00:02.241 > [1210978][V][LoraMesher.cpp:754] printHeaderPacket(): [LoRaMesher] Packet received -- Size: 17 Src: B3F0 Dst: D110 Id: 101 Type: 2 Via: D110 Seq_Id: 0 Num: 0
+16:00:02.255 > [1210992][I][LoraMesher.cpp:854] processDataPacket(): [LoRaMesher] Data packet from B3F0, destination D110, via D110
+16:00:02.266 > [1211002][V][LoraMesher.cpp:878] processDataPacket(): [LoRaMesher] Packet not for me, deleting it
+16:00:02.274 > [1211011][I][PacketQueueService.h:80] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet
+16:00:02.283 > [1211019][I][PacketQueueService.h:83] deleteQueuePacketAndPacket(): [LoRaMesher] Deleting packet queue
+16:00:02.292 > [1211028][V][LoraMesher.cpp:641] processPackets(): [LoRaMesher] Stack space unused after entering the task: 1988
+16:00:02.302 > [1211038][V][LoraMesher.cpp:642] processPackets(): [LoRaMesher] Free heap: 336276
