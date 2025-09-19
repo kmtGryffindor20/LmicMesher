@@ -167,8 +167,9 @@ void setup() {
     Serial.begin(115200);
 
     Serial.println("initBoard");
-    pinMode(BOARD_LED, OUTPUT); //setup pin as output for indicator LED
-    led_Flash(2, 125);          //two quick LED flashes to indicate program start
+    pinMode(BOARD_LED, OUTPUT);
+    digitalWrite(BOARD_LED, LOW);
+
     setupLoraMesher();
 }
 
