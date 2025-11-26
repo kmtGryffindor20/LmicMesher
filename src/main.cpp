@@ -7,15 +7,37 @@
 #define LED_OFF     HIGH
 
 
+// Sensor variables
+float lastDistanceCM = 0.0;
+float lastSoundDB = 0.0;
+float lastCOPpm = 0.0;
+String lastSmokeStatus = "NA";
+float lastBME680Temp = 0.0;
+float lastBME680Humidity = 0.0;
+float lastBME680Pressure = 0.0;
+float lastBME680Gas = 0.0;
+
+
 LoraMesher& radio = LoraMesher::getInstance();
 
 uint32_t dataCounter = 0;
 struct dataPacket {
-    int type = 0; // 0 for counter, 1 for wan packet
+    int type = 0; // 0 for sensor, 1 for wan packet
     union {
-        uint32_t counter = 0;
+        struct {
+            int16_t distance;
+            int16_t sound;
+            int16_t co;
+            int16_t smoke;
+            int16_t temp;
+            int16_t hum;
+            int16_t press;
+            int16_t gas;
+            uint8_t node_id_high; // Added for node ID
+            uint8_t node_id_low;  // Added for node ID
+        } sensor; // 16 bytes total
         uint8_t data[4];
-    } data;
+    } u;
 };
 
 dataPacket* helloPacket = new dataPacket;
@@ -39,15 +61,18 @@ void led_Flash(uint16_t flashes, uint16_t delaymS) {
  * @param data
  */
 void printPacket(dataPacket data, uint16_t src) {
-    if (data.type == 0)
-    {
-        Serial.printf("DATA:%d %x\n", data.data.counter, src);
-        // Serial.printf("Hello Counte r received nº %d\n", data.data.counter);
-    }
-    else{
-        for(int i = 0; i < 4; i++)
-        {
-            Serial.println(data.data.data[i]);
+    if (data.type == 0) {
+        Serial.print("DATA:");
+        uint8_t* bytes = (uint8_t*)&data.u.sensor;
+        for (size_t i = 0; i < sizeof(data.u.sensor); i++) {
+            Serial.print(bytes[i]);
+            if (i < sizeof(data.u.sensor) - 1) Serial.print(" ");
+        }
+        Serial.printf(" %x\n", src);
+        Serial.flush(); // Ensure immediate output
+    } else {
+        for (int i = 0; i < 4; i++) {
+            Serial.println(data.u.data[i]);
         }
     }
 }
@@ -59,14 +84,11 @@ void printPacket(dataPacket data, uint16_t src) {
  */
 void printDataPacket(AppPacket<dataPacket>* packet) {
     Serial.printf("Packet arrived from %X with size %d\n", packet->src, packet->payloadSize);
-
-    //Get the payload to iterate through it
+    
     dataPacket* dPacket = packet->payload;
     size_t payloadLength = packet->getPayloadLength();
     uint16_t src = packet->src;
-
     for (size_t i = 0; i < payloadLength; i++) {
-        //Print the packet
         printPacket(dPacket[i], src);
     }
 }
@@ -77,23 +99,18 @@ void printDataPacket(AppPacket<dataPacket>* packet) {
  */
 void processReceivedPackets(void*) {
     for (;;) {
-        /* Wait for the notification of processReceivedPackets and enter blocking */
         ulTaskNotifyTake(pdPASS, portMAX_DELAY);
-        led_Flash(1, 100); //one quick LED flashes to indicate a packet has arrived
+        led_Flash(1, 100);
 
-        //Iterate through all the packets inside the Received User Packets Queue
         while (radio.getReceivedQueueSize() > 0) {
             Serial.println("ReceivedUserData_TaskHandle notify received");
             Serial.printf("Queue receiveUserData size: %d\n", radio.getReceivedQueueSize());
 
-            //Get the first element inside the Received User Packets Queue
             AppPacket<dataPacket>* packet = radio.getNextAppPacket<dataPacket>();
-
-            //Print the data packet
-            printDataPacket(packet);
-
-            //Delete the packet when used. It is very important to call this function to release the memory of the packet.
-            radio.deletePacket(packet);
+            if (packet != nullptr) {
+                printDataPacket(packet);
+                radio.deletePacket(packet);
+            }
         }
     }
 }
@@ -139,6 +156,8 @@ void setupLoraMesher() {
     config.loraRst = RST;
     config.loraIrq = IRQ;
     config.loraIo1 = IO1;
+    config.sf = 12;
+    config.power = 20;
 
     config.syncWord = 0x45;
     #ifdef HELTEC
@@ -178,44 +197,75 @@ void loop() {
         for (;;) {
 
             #ifdef IS_GATEWAY
-                if (Serial.available())
-                {
-                    uint8_t data[7];
-                    Serial.readBytes(data, 7);
-                    returnPacket->type = 1;
-                    // Serial.println("TO SEND: ");
-                    for(int i = 0; i < 4; i++)
-                    {
-                        returnPacket->data.data[i] = data[i];
-                        // Serial.println(data[i]);
-                    }
-                    uint16_t dst = data[5] + 256 * data[4];
-                    // Serial.println(dst);
-                    Serial.flush();
-                    radio.createPacketAndSend(dst, returnPacket, 1);
-                }
+                // if (Serial.available())
+                // {
+                //     uint8_t data[7];
+                //     Serial.readBytes(data, 7);
+                //     returnPacket->type = 1;
+                //     // Serial.println("TO SEND: ");
+                //     for(int i = 0; i < 4; i++)
+                //     {
+                //         returnPacket->data.data[i] = data[i];
+                //         // Serial.println(data[i]);
+                //     }
+                //     uint16_t dst = data[5] + 256 * data[4];
+                //     // Serial.println(dst);
+                //     Serial.flush();
+                //     radio.createPacketAndSend(dst, returnPacket, 1);
+                // }
             #endif
 
-            #ifdef IS_SENSOR_NODE
-                Serial.printf("Send packet %d\n", dataCounter);
+            #ifndef IS_GATEWAY
+                        // Print to Serial for debug
+            Serial.println("\n=== Sensor Readings ===");
+            Serial.print("IR Distance: ");
+            Serial.print(lastDistanceCM, 1);
+            Serial.println(" cm");
+            Serial.print("Sound Level: ");
+            Serial.print(lastSoundDB, 1);
+            Serial.println(" dB");
+            Serial.print("MQ2 - CO PPM: ");
+            Serial.print(lastCOPpm, 1);
+            Serial.print(" ppm | Smoke: ");
+            Serial.println(lastSmokeStatus);
+            Serial.print("BME680/688 - Temp: ");
+            Serial.print(lastBME680Temp, 1);
+            Serial.print(" °C | Humidity: ");
+            Serial.print(lastBME680Humidity, 1);
+            Serial.print(" % | Pressure: ");
+            Serial.print(lastBME680Pressure, 1);
+            Serial.print(" hPa | Gas: ");
+            Serial.print(lastBME680Gas, 1);
+            Serial.println(" KΩ");
+            Serial.println("========================");
 
-                helloPacket->data.counter = dataCounter++;
-                helloPacket->type = 0;
-                
-                RouteNode* dst = radio.getClosestGateway(); //Get the closest gateway to send the packet
-                uint16_t addr;
-                if (dst != nullptr)
-                    addr = dst->networkNode.address; //Get the address of the destination node
-                else 
-                    addr = BROADCAST_ADDR;
-                Serial.printf("Sending packet to %X\n", addr);
+            // Prepare and send packet
+            uint16_t localAddr = radio.getLocalAddress(); // Declared here to fix undefined error
+            helloPacket->type = 0;
+            helloPacket->u.sensor.distance = (int16_t)(lastDistanceCM * 10 + 0.5);
+            helloPacket->u.sensor.sound = (int16_t)(lastSoundDB * 10 + 0.5);
+            helloPacket->u.sensor.co = (int16_t)(lastCOPpm * 10 + 0.5);
+            helloPacket->u.sensor.smoke = (lastSmokeStatus == "Detected") ? 1 : 0;
+            helloPacket->u.sensor.temp = (int16_t)(lastBME680Temp * 10 + 0.5);
+            helloPacket->u.sensor.hum = (int16_t)(lastBME680Humidity * 10 + 0.5);
+            helloPacket->u.sensor.press = (int16_t)(lastBME680Pressure * 10 + 0.5);
+            helloPacket->u.sensor.gas = (int16_t)(lastBME680Gas * 10 + 0.5);
+            helloPacket->u.sensor.node_id_high = (localAddr >> 8) & 0xFF;
+            helloPacket->u.sensor.node_id_low = localAddr & 0xFF;
 
-                //Create packet and send it.
-                // radio.createPacketAndSend(BROADCAST_ADDR, helloPacket, 1);
-                radio.createPacketAndSend(addr, helloPacket, 1);
-            #endif
+            RouteNode* dst = radio.getClosestGateway();
+            uint16_t addr;
+            if (dst != nullptr) {
+                addr = dst->networkNode.address;
+            } else {
+                addr = BROADCAST_ADDR;
+            }
+            Serial.printf("Sending own packet to %X (local addr: 0x%X)\n", addr, localAddr);
 
+            radio.createPacketAndSend(addr, helloPacket, 1);
             //Wait 20 seconds to send the next packet
             vTaskDelay(20000 / portTICK_PERIOD_MS);
+            #endif
+
         }
 }
