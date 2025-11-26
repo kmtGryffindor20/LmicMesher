@@ -1,5 +1,41 @@
 #ifndef _LORAMESHER_BUILD_OPTIONS_H
 #define _LORAMESHER_BUILD_OPTIONS_H
+// ============ SNR Threshold Configuration ============
+/**
+ * @brief Minimum SNR in dB required for a route to be considered viable
+ * 
+ * Default: -15 dB
+ * - Routes with SNR below this threshold are rejected
+ * - LoRa typical range: -20dB (poor) to +10dB (excellent)
+ * - -15dB provides reliable communication with some margin
+ * - Typical values:
+ *   -20dB: Very weak, unreliable
+ *   -15dB: Weak but stable (recommended minimum)
+ *   -10dB: Good signal
+ *   -5dB: Strong signal
+ *   0dB and above: Excellent signal
+ */
+#define SNR_MINIMUM_THRESHOLD 10
+/**
+ * @brief Grace period SNR threshold for existing routes (dB)
+ * 
+ * Default: -18 dB
+ * - Existing routes are allowed to degrade slightly below minimum threshold
+ * - Prevents route flapping when signal hovers around threshold
+ * - Should be 2-3dB below SNR_MINIMUM_THRESHOLD
+ * - Provides hysteresis for route removal
+ */
+#define SNR_EXISTING_ROUTE_THRESHOLD 7
+/**
+ * @brief Number of consecutive readings below threshold before removing route
+ * 
+ * Default: 3
+ * - Prevents single bad reading from removing good route
+ * - Must see 3 consecutive bad readings before declaring route dead
+ */
+#define SNR_BAD_READING_THRESHOLD 10
+
+
 
 #ifdef ARDUINO
 #include "Arduino.h"
@@ -53,11 +89,13 @@ extern const char* LM_VERSION;
 // 866E6 for Europe
 // 915E6 for North America
 #define LM_BAND 869.900F
+// #define LM_BAND 415.000F
+// #define LM_BAND 915.000F
 #define LM_BANDWIDTH 125.0
-#define LM_LORASF 7U
+#define LM_LORASF 12U
 #define LM_CODING_RATE 7U
 #define LM_PREAMBLE_LENGTH 8U
-#define LM_POWER 6
+#define LM_POWER 2
 #define LM_DUTY_CYCLE 100
 
 //Syncronization Word that identifies the mesh network
@@ -93,7 +131,7 @@ extern const char* LM_VERSION;
 
 //Definition Times in seconds
 #define HELLO_PACKETS_DELAY 60
-#define DEFAULT_TIMEOUT HELLO_PACKETS_DELAY*3
+#define DEFAULT_TIMEOUT HELLO_PACKETS_DELAY*5
 #define MIN_TIMEOUT 20
 
 //Maximum times that a sequence of packets reach the timeout
@@ -105,6 +143,16 @@ extern const char* LM_VERSION;
 #define ROLE_DEFAULT 0b00000000
 #define ROLE_GATEWAY 0b00000001
 //Free Role Types from 0b00000010 to 0b10000000
+
+
+
+// ============ SNR Hysteresis Configuration ============
+// #define ROUTE_STABILITY_THRESHOLD 8
+// #define SNR_HYSTERESIS_MARGIN 5
+// #define ROUTE_LOCKOUT_TIME 60000
+
+
+
 
 // Define if is testing
 // #define LM_TESTING

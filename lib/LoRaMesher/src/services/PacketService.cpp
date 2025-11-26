@@ -80,7 +80,7 @@ bool PacketService::isXLPacket(uint8_t type) {
 }
 
 bool PacketService::isDataControlPacket(uint8_t type) {
-    return (isHelloPacket(type) || isAckPacket(type) || isLostPacket(type) || isLostPacket(type));
+    return (isHelloPacket(type) || isAckPacket(type) || isLostPacket(type) || isSyncPacket(type));
 }
 
 uint8_t PacketService::getHeaderLength(uint8_t type) {

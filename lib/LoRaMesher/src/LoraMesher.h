@@ -46,6 +46,7 @@ public:
         SX1278_MOD,
         SX1268_MOD,
         SX1280_MOD,
+        RFM95_MOD,
     };
 
     /**
@@ -160,6 +161,16 @@ public:
      *
      */
     ~LoraMesher();
+    
+    /**
+     * @brief Delete the copy constructor and assignment operator to prevent copying of the singleton instance.
+     */
+    LoraMesher(const LoraMesher&) = delete;
+
+    /**
+     * @brief Delete the assignment operator to prevent copying of the singleton instance.
+     */
+    LoraMesher& operator=(const LoraMesher&) = delete;
 
     /**
      * @brief Set a new LoRaMesher configuration. This function will stop the LoRaMesher and restart it with the new configuration.
@@ -430,6 +441,13 @@ public:
      * @return uint32_t
      */
     uint32_t getSentControlBytes() { return sentControlBytes; }
+
+    
+    /**
+     * @brief Checks if the node is a gateway
+     *
+     */
+    static bool isGatewayRole() { return RoleService::isGateway(); };
 
     /**
      * @brief Defines that the node is a gateway

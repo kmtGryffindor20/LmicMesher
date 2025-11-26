@@ -2,194 +2,140 @@
 #define _LORAMESHER_ROUTING_TABLE_SERVICE_H
 
 #include "utilities/LinkedQueue.hpp"
-
 #include "entities/routingTable/RouteNode.h"
-
 #include "entities/routingTable/NetworkNode.h"
-
 #include "entities/packets/RoutePacket.h"
-
 #include "BuildOptions.h"
-
 #include "services/WiFiService.h"
-
 #include "services/RoleService.h"
 
 /**
- * @brief Routing Table Service
- *
+ * @brief Routing Table Service with SNR Hysteresis + Reroute-on-New-Node
  */
 class RoutingTableService {
 public:
 
-	/**
-	 * @brief Routing table List
-	 *
-	 */
-	static LM_LinkedList<RouteNode>* routingTableList;
+    /** Routing table list */
+    static LM_LinkedList<RouteNode>* routingTableList;
 
-	/**
-	 * @brief Prints the actual routing table in the log
-	 *
-	 */
-	static void printRoutingTable();
+    /** Print routing table */
+    static void printRoutingTable();
 
-	/**
-	 * @brief Get the All Network Nodes that are inside the routing table
-	 *
-	 * @return NetworkNode* All the nodes in a list.
-	 */
-	static NetworkNode* getAllNetworkNodes();
+    /** Get list of all network nodes */
+    static NetworkNode* getAllNetworkNodes();
 
-	/**
-	 * @brief Find the node that contains the address
-	 *
-	 * @param address address to be found
-	 * @return RouteNode* pointer to the RouteNode or nullptr
-	 */
-	static RouteNode* findNode(uint16_t address);
+    /** Find route-node by address */
+    static RouteNode* findNode(uint16_t address);
 
-	/**
-	 * @brief Get the best node that contains a role, the nearest
-	 *
-	 * @param role role to be found
-	 * @return RouteNode* pointer to the RouteNode or nullptr
-	 */
-	static RouteNode* getBestNodeByRole(uint8_t role);
+    /** Get nearest node providing the given role */
+    static RouteNode* getBestNodeByRole(uint8_t role);
 
-	/**
-	 * @brief Returns if address is inside the routing table
-	 *
-	 * @param address Address you want to check if is inside the routing table
-	 * @return true If the address is inside the routing table
-	 * @return false If the address is not inside the routing table
-	 */
-	static bool hasAddressRoutingTable(uint16_t address);
+    /** Check if routing table contains address */
+    static bool hasAddressRoutingTable(uint16_t address);
 
-	/**
-	 * @brief Get the Next Hop address
-	 *
-	 * @param dst address of the next hop
-	 * @return uint16_t address of the next hop
-	 */
-	static uint16_t getNextHop(uint16_t dst);
+    /** Get next hop for destination */
+    static uint16_t getNextHop(uint16_t dst);
 
-	/**
-	 * @brief Get the Number Of Hops of the address inside the routing table
-	 *
-	 * @param address Address of the number of hops you want to know
-	 * @return uint8_t Number of Hops or 0 if address not found in routing table.
-	 */
-	static uint8_t getNumberOfHops(uint16_t address);
+    /** Get hop count for an address */
+    static uint8_t getNumberOfHops(uint16_t address);
 
-	/**
-	 * @brief Returns the routing table size
-	 *
-	 * @return size_t
-	 */
-	static size_t routingTableSize();
+    /** Get routing table size */
+    static size_t routingTableSize();
 
-	/**
-	 * @brief Process the network packet
-	 *
-	 * @param p Route Packet
-	 */
+    /**
+     * @brief Process route packet (SNR + regular)
+     */
+    static void processRoute(RoutePacket* p, int8_t receivedSNR);
 
-	 /**
-	  * @brief Process the network packet
-	  *
-	  * @param p Route Packet
-	  * @param receivedSNR Received SNR
-	  */
-	static void processRoute(RoutePacket* p, int8_t receivedSNR);
+    /**
+     * @brief Process route packet and return whether routing table updated
+     */
+    static void processRoute(RoutePacket* p, int8_t receivedSNR, bool& routingTableUpdated);
 
-	/**
-	 * @brief Process the network packet
-	 *
-	 * @param p Route Packet
-	 * @param receivedSNR Received SNR
-	 * @param routingTableUpdated Set to true if the routing table has been updated
-	 */
-	static void processRoute(RoutePacket* p, int8_t receivedSNR, bool& routingTableUpdated);
+    /** Reset SNR for received route */
+    static void resetReceiveSNRRoutePacket(uint16_t src, int8_t receivedSNR);
 
-	/**
-	 * @brief Reset the SNR from the Route Node received
-	 *
-	 * @param src Source address
-	 * @param receivedSNR Received SNR
-	 */
-	static void resetReceiveSNRRoutePacket(uint16_t src, int8_t receivedSNR);
+    /** Reset SNR for sent route */
+    static void resetSentSNRRoutePacket(uint16_t src, int8_t sentSNR);
 
-	/**
-	 * @brief Reset the SNR from the Route Node Sent
-	 *
-	 * @param src Source address
-	 * @param sentSNR Sent SNR
-	 */
-	static void resetSentSNRRoutePacket(uint16_t src, int8_t sentSNR);
+    /** Remove timed-out routes */
+    static void manageTimeoutRoutingTable();
 
-	/**
-	 * @brief Checks all the routing entries for a route timeout and remove the entry.
-	 *
-	 */
-	static void manageTimeoutRoutingTable();
+    // =====================================================
+    //      SNR Hysteresis + Stability Evaluation API
+    // =====================================================
+
+    /**
+     * @brief Decide if route should change based on SNR + hops
+     */
+    static bool shouldChangeRoute(uint16_t currentVia, uint8_t currentMetric, int8_t currentSNR,
+                                  uint16_t candidateVia, uint8_t candidateMetric, int8_t candidateSNR);
+
+    /** Update exponential moving SNR average */
+    static void updateSNRAverage(RouteNode* rNode, int8_t newSNR);
+
+    /** Check if a candidate route has been stable long enough */
+    static bool isRouteChangeStable(RouteNode* rNode);
+
+    /** Check if enough time passed to reevaluate route */
+    static bool canReevaluateRoute(RouteNode* rNode);
+
+    /** Check SNR threshold for **new** routes */
+    static bool isSNRAcceptable(int8_t snr);
+
+    /** Check SNR threshold for **existing** routes with hysteresis margin */
+    static bool isExistingRouteSNRAcceptable(int8_t avgSNR);
+
+    /** Check if route should be removed because SNR is consistently poor */
+    static bool shouldRemoveRouteDueToSNR(RouteNode* rNode, int8_t currentSNR);
+
+    /** Remove all consistently weak links */
+    static void removeWeakRoutes();
+
 
 private:
 
-	/**
-	 * @brief process the network node, adds the node in the routing table if can
-	 *
-	 * @param via via address
-	 * @param node NetworkNode
-	 */
-	static void processRoute(uint16_t via, NetworkNode* node);
+    // =====================================================
+    //              ROUTE PROCESSING INTERNALS
+    // =====================================================
 
-	/**
-	 * @brief process the network node, adds the node in the routing table if can
-	 *
-	 * @param rNode route node
-	 * @param via via address
-	 * @param node NetworkNode
-	 */
-	static void processRoute(RouteNode* rNode, uint16_t via, NetworkNode* node);
+    /**
+     * @brief Process network node entry (basic + SNR aware)
+     */
+    static void processRoute(uint16_t via, NetworkNode* node, int8_t receivedSNR);
 
-	/**
-	 * @brief process the network node, adds the node in the routing table if can
-	 *
-	 * @param via via address
-	 * @param node NetworkNode
-	 * @param routingTableUpdated to be set to true if the routing table has been updated
-	 */
-	static void processRoute(uint16_t via, NetworkNode* node, bool& routingTableUpdated);
+    /**
+     * @brief Reroute-on-new-node path that returns update flag
+     */
+    static void processRoute(uint16_t via, NetworkNode* node, int8_t receivedSNR, bool& routingTableUpdated);
 
-	/**
-	 * @brief Reset the timeout of the given node
-	 *
-	 * @param node node to be reset the timeout
-	 */
-	static void resetTimeoutRoutingNode(RouteNode* node);
+    /**
+     * @brief Process route for existing RouteNode
+     */
+    static void processRoute(RouteNode* rNode, uint16_t via, NetworkNode* node, int8_t receivedSNR);
 
-	/**
-	 * @brief Add node to the routing table
-	 *
-	 * @param node Network node that includes the address and the metric
-	 * @param via Address to next hop to reach the network node address
-	 */
+    /** Reset timeout for node */
+    static void resetTimeoutRoutingNode(RouteNode* node);
 
-	 /**
-	  * @brief Add node to the routing table
-	  *
-	  * @param node Network node that includes the address and the metric
-	  * @param via Address to next hop to reach the network node address
-	  */
-	static void addNodeToRoutingTable(NetworkNode* node, uint16_t via);
+    /** Add new entry to routing table */
+    static void addNodeToRoutingTable(NetworkNode* node, uint16_t via);
 
-	/**
-	 * @brief Get the Maximum Metric Of Routing Table. To prevent that some new entries are not added to the routing table.
-	 *
-	 * @return uint8_t Returns the maximum metric of the routing table
-	 */
-	static uint8_t calculateMaximumMetricOfRoutingTable();
+    /** Compute max metric allowed */
+    static uint8_t calculateMaximumMetricOfRoutingTable();
+
+
+    // =====================================================
+    //              SNR Hysteresis Constants
+    // =====================================================
+
+    /** Number of consistent good readings needed to switch */
+    static const uint8_t ROUTE_STABILITY_THRESHOLD = 10;
+
+    /** Minimum dB advantage required to switch routes with same hop-count */
+    static const int8_t SNR_HYSTERESIS_MARGIN = 4;
+
+    /** Lockout time after route change (ms) */
+    static const uint32_t ROUTE_LOCKOUT_TIME = 30000; 
 };
 
 #endif
